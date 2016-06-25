@@ -15,6 +15,7 @@ int Note_c = 262;
 int Note_csharp = 277; 
 int Note_d = 294;
 int Note_2eb = 311;
+int Note_2e = 330;
 int Note_3f = 349;
 int Note_3gb = 370;
 int Note_3g = 392;
@@ -25,7 +26,10 @@ int melody[] = {
   Note_d, Note_d, Note_d, Note_2eb, Note_bb, Note_gb, Note_e, Note_bb, Note_g,
   Note_3g, Note_g, Note_g, Note_3g, Note_3gb, Note_3f, Note_2eb, Note_d, Note_2eb, 0,
   Note_gb, Note_c, Note_b, Note_bb, Note_a, Note_ab, Note_a, 0,
-  Note_e, Note_gb, Note_e, Note_gb, Note_bb, Note_g, Note_bb, Note_g
+  Note_e, Note_gb, Note_e, Note_gb, Note_bb, Note_g, Note_bb, Note_d,
+  Note_3g, Note_g, Note_g, Note_3g, Note_3gb, Note_3f, Note_2eb, Note_d, Note_2eb, 0,
+  Note_gb, Note_c, Note_b, Note_bb, Note_a, Note_ab, Note_a, 0,
+  Note_e, Note_gb, Note_e, Note_bb, Note_g, Note_e, Note_bb, Note_g
 };
 
 
@@ -33,6 +37,9 @@ int melody[] = {
 int noteLengths[] = {
   2, 2, 2, 3, 8, 2, 3, 8, 1,
   2, 2, 2, 3, 8, 2, 3, 8, 1,
+  2, 3, 8, 2, 3, 8, 8, 8, 4, 4,
+  4, 2, 3, 8, 8, 8, 4, 4,
+  4, 2, 3, 8, 2, 3, 8, 1,
   2, 3, 8, 2, 3, 8, 8, 8, 4, 4,
   4, 2, 3, 8, 8, 8, 4, 4,
   4, 2, 3, 8, 2, 3, 8, 1
